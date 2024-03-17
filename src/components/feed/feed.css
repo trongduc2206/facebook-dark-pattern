@@ -1,0 +1,172 @@
+.feed{
+    flex:6;
+    margin-top: 50px;
+    height: calc(100vh - 67px);
+    overflow-y: scroll;
+}
+
+.feedWrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.story {
+    display: flex;
+    margin-top: 5px;
+}
+
+.storyImage {
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.ownStoryDuc {
+    margin-right: 10px;
+    position: relative;
+    height: 200px;
+    width: 18%;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    background-image: url(../../../public/assets/person/duc.jpg);
+    background-size: 205px 230px;
+}
+
+.ownStoryDuc:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translate(3px, -3px);
+}
+
+.ownStorySafak {
+    margin-right: 10px;
+    position: relative;
+    height: 200px;
+    width: 18%;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    background-image: url(../../../public/assets/post/8.jpeg);
+    background-size: 190px 230px;
+}
+
+.ownStorySafak:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translate(3px, -3px);
+}
+
+.ownStoryGary {
+    margin-right: 10px;
+    position: relative;
+    height: 200px;
+    width: 18%;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    background-image: url(../../../public/assets/post/22.png);
+    background-size: 190px 230px;
+}
+.ownStoryGary:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translate(3px, -3px);
+}
+
+.ownStoryDora {
+    margin-right: 10px;
+    position: relative;
+    height: 200px;
+    width: 18%;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    background-image: url(../../../public/assets/post/rainying.png);
+    background-size: 190px 230px;
+}
+
+.ownStoryDora:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translate(3px, -3px);
+}
+
+.storyName {
+    position: absolute;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-weight: 600
+}
+
+.storyAvatar {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(81, 68, 199)
+}
+
+.test {
+    height: 230px;
+    width: 190px;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    display: relative;
+    flex-direction: column;
+}
+
+.test:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translate(3px, -3px);
+}
+
+.storyImageTest {
+    border-radius: 10px 10px 0 0;
+}
+
+.createStoryContainer {
+    background-color: white;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+.createStoryText {
+    position: absolute;
+    margin-left: 45px;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.createStoryIcon {
+    position: absolute;
+    gap: 8px;
+    margin-top: 150px;
+    /* margin-bottom: 20px; */
+    margin-left: 75px;
+    font-size: 50px;
+    z-index: 10;
+    border-radius: 50%;
+}
