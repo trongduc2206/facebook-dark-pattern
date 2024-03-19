@@ -128,7 +128,7 @@ export default function CreatePost() {
         </div>
         <hr className="createPostHr" />
         <div className="centerContainer">
-          <img height="250" src='assets/illustration-of-laptop-facebook-ads-free-vector.jpg'/>
+          <img height="250" src='assets/illustration-of-laptop-facebook-ads-free-vector.jpg' alt=""/>
         </div>
         <div className="createAdsCenter">
           <h2>Duc, want us to show you ads that are more relevant by using your activity from ad partners?</h2>

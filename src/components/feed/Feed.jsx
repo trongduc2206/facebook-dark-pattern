@@ -31,15 +31,15 @@ export default function Feed({ changeState }) {
             <span className="storyName">Duc Vu</span>
           </div>
           <div className="ownStorySafak">
-            <img src="assets/person/10.jpeg" height='40' width='40' className="storyAvatar" />
+            <img src="assets/person/10.jpeg" height='40' width='40' className="storyAvatar" alt="" />
             <span className="storyName">Safak Kocaoglu</span>
           </div>
           <div className="ownStoryGary">
-            <img src="assets/person/9.jpeg" height='40' width='40' className="storyAvatar" />
+            <img src="assets/person/9.jpeg" height='40' width='40' className="storyAvatar" alt=""/>
             <span className="storyName">Gary Duty</span>
           </div>
           <div className="ownStoryDora">
-            <img src="assets/person/4.jpeg" height='40' width='40' className="storyAvatar" />
+            <img src="assets/person/4.jpeg" height='40' width='40' className="storyAvatar" alt=""/>
             <span className="storyName">Dora Hawks</span>
           </div>
         </div>
