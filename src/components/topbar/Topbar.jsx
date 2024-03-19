@@ -13,7 +13,7 @@ export default function Topbar() {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <Link  to="/" style={{textDecoration:'none'}}>
-        <img height='40px' src={"assets/fb-purple-icon.png"} alt="" className="fbIcon"/>
+        <img height='40px' src={"assets/purple-icon.png"} alt="" className="fbIcon"/>
         </Link>
       </div>
       <div className="topbarLeft2">
