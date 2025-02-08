@@ -26,6 +26,9 @@ jobs:
       - name: Install AXE CLI
         run: npm install @axe-core/cli -g
 
+      - name: Install Chrome driver
+        run: npx browser-driver-manager install chrome -y
+
       - name: Evaluate accessibility
         run: axe http://localhost:8080 --exit
 
