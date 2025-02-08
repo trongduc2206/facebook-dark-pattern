@@ -30,7 +30,7 @@ jobs:
         run: npx browser-driver-manager install chrome
 
       - name: Evaluate accessibility
-        run: axe http://localhost:8080 --exit
+        run: axe http://localhost:8080 --chrome-options="--no-sandbox --incognito --user-data-dir=/tmp/axe-chrome" --exit
 
       - name: Stop Local Server
         run: pkill http-server || true
