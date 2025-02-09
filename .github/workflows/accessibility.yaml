@@ -29,8 +29,13 @@ jobs:
       - name: Install Chrome driver
         run: npx browser-driver-manager install chrome
 
+      - name: Fetch Rule IDs from Public API
+        run: |
+          RESPONSE=$(curl -s "https://accessibility-hub-be.onrender.com/rules")
+          echo "RULE_IDS=$RULE_IDS" >> $GITHUB_ENV
+
       - name: Evaluate accessibility
-        run: axe http://localhost:8080 --chrome-options="no-sandbox,incognito" --exit
+        run: axe http://localhost:8080 --chrome-options="no-sandbox,incognito" --rules "$RULE_IDS" --exit
 
       - name: Stop Local Server
         run: pkill http-server || true
