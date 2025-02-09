@@ -31,7 +31,8 @@ jobs:
 
       - name: Fetch Rule IDs from Public API
         run: |
-          RESPONSE=$(curl -s "https://accessibility-hub-be.onrender.com/rules")
+          RULE_IDS=$(curl -s "https://accessibility-hub-be.onrender.com/rules")
+          echo $RULE_IDS
           echo "RULE_IDS=$RULE_IDS" >> $GITHUB_ENV
 
       - name: Evaluate accessibility
