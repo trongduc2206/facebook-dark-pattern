@@ -39,7 +39,8 @@ jobs:
       #   run: axe http://localhost:8080 --chrome-options="no-sandbox,incognito" --rules "$RULE_IDS" --exit
 
       - name: Evaluate accessibility
-        uses: trongduc2206/accessibility-hub-runner@29fa565e6aa37475be2fc4a2a2fb3e160a4ea397
+        # uses: trongduc2206/accessibility-hub-runner@29fa565e6aa37475be2fc4a2a2fb3e160a4ea397
+        uses: trongduc2206/accessibility-hub-runner@46fd1ed31d78b72bba55f775491b1496c810c38f
         with:
           url: 'http://localhost:8080'
           service_id: 'test_svc'
