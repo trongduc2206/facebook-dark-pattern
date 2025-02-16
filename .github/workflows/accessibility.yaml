@@ -40,7 +40,7 @@ jobs:
 
       - name: Evaluate accessibility
         # uses: trongduc2206/accessibility-hub-runner@29fa565e6aa37475be2fc4a2a2fb3e160a4ea397
-        uses: trongduc2206/accessibility-hub-runner@53217338ddd7aa2b001e5a4879901ac6a82b2aa6
+        uses: trongduc2206/accessibility-hub-runner@d8ce52962ec0e86eb0875e8fd2d033578408b864
         with:
           url: 'http://localhost:8080'
           service_id: 'test_svc'
