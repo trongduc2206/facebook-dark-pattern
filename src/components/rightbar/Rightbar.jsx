@@ -11,17 +11,17 @@ function Rightbar() {
         <div className="birthdayContainer">
           <img src="./assets/gift.png" alt="" className="birthdayImage" />
           <span className="birthdayText">
-            <b>Gopal Patel</b> and <b>other friends</b> have a birthday today.
+            <blink>Gopal Patel</blink> and <b>other friends</b> have a birthday today.
           </span>
         </div>
-        <div style={{marginTop: '10px', padding: "10px", borderRadius: "8px" }} className="ads">
+        <div style={{marginTop: '10px', padding: "10px", borderRadius: "8px", backgroundColor: "#f0f0f0", color: "#f0f0f0" }} className="ads">
           <div style={{ display: "flex"}} >
             <img src="./assets/ad1.png" width="50" alt="" className="rightbarAdImg" />
             <h3 style={{ marginLeft: '10px' }}>cocacola.com</h3>
             <CloseIcon style={{ cursor:'pointer'}} className="moreIcon"/>
           </div>
 
-          <button className="adsButton">Learn more</button>
+          <button className="adsButton" onClick={() => alert('Learn more')}>Click here</button>
         </div>
         <hr className="rightbarHr" />
 

@@ -1,4 +1,3 @@
-
 import PermMediaIcon from "@mui/icons-material/PermMedia";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -22,8 +21,6 @@ export default function CreatePost() {
     setShowAds(!showAds)
   }
 
-
-
   return (<>
 
     <Home showCreatePost={showCreatePost} changeState={changeState} showAds={showAds} />
@@ -31,7 +28,7 @@ export default function CreatePost() {
     <div className={showCreatePost ? "showCreatePost" : "hideCreatePost"}>
       <div className="createPostWrapper">
         <div className="createPostTop">
-          <h3 className="createPostTitle">Create post</h3>
+          <h3 className="createPostTitle" style={{ color: "#ccc" }}>Create post</h3>
           <div className="createPostCloseIconCont">
             <CloseIcon
               style={{ fontSize: "26px", opacity: "0.8", cursor: "pointer" }}
@@ -45,7 +42,6 @@ export default function CreatePost() {
             <img
               className="createPostProfileImage"
               src="assets/person/duc.jpg"
-              alt=""
             />
             <div className="createPostProfileLeft">
               <span className="createPostUsername">
@@ -55,7 +51,6 @@ export default function CreatePost() {
                 <option value="public" className="visibility public">
                   Public
                 </option>
-
                 <option value="friends">Friends</option>
                 <option value="friendsExcept">Friends except</option>
                 <option value="onlyMe">Only me</option>
@@ -73,7 +68,7 @@ export default function CreatePost() {
         </div>
         <div className="createPostOptionsCont">
           <div className="createPostOption">
-            <span className="createPostOptionTitle"><b>Add <span>to your post</span></b></span>
+            <marquee>Add to your post</marquee>
             <div className="createPostOptionIcons">
               <span className="circleCont">
                 <PermMediaIcon
@@ -128,28 +123,28 @@ export default function CreatePost() {
         </div>
         <hr className="createPostHr" />
         <div className="centerContainer">
-          <img height="250" src='assets/illustration-of-laptop-facebook-ads-free-vector.jpg' alt=""/>
+          <img height="250" src='assets/illustration-of-laptop-facebook-ads-free-vector.jpg' />
         </div>
         <div className="createAdsCenter">
-          <h2>Duc, want us to show you ads that are more relevant by using your activity from ad partners?</h2>
+          <h2 style={{ color: "#ccc" }}>Duc, want us to show you ads that are more relevant by using your activity from ad partners?</h2>
           <p>You can choose if you use <span className="linkText">activity information</span> from your visits to <span className="linkText">ad partners'</span> apps, websites and shops to improve your ads </p>
         </div>
         <hr className="createPostHr" />
         <div className="createAdsCenter">
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y-/r/FBUakLpIX3k.png" width="18" alt="" aria-hidden="true"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y-/r/FBUakLpIX3k.png" width="18"></img>
             <span className="adsElementText">You can change this setting at any time in Ad preferences. </span>
           </div>
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/NACdj8k5Tjo.png" width="18" alt="" aria-hidden="true"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/NACdj8k5Tjo.png" width="18"></img>
             <span className="adsElementText">We always use strict security standarts to keep your information safe</span>
           </div>
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/6Td6OTxqdrn.png" width="18" alt="" aria-hidden="true"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/6Td6OTxqdrn.png" width="18"></img>
             <span className="adsElementText">This setting also applies to ads on other apps and websites that use our <span className="linkText">advertising service</span></span>
           </div>
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/WXPUqPJ7zyc.png" width="18" alt="" aria-hidden="true"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/WXPUqPJ7zyc.png" width="18"></img>
             <span className="adsElementText">We also use <span className="linkText">other information</span> from ad partners, which isn't controlled by this setting</span>
           </div>
           <div>
