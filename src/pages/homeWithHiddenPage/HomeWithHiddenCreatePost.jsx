@@ -42,6 +42,7 @@ export default function CreatePost() {
             <img
               className="createPostProfileImage"
               src="assets/person/duc.jpg"
+              alt="facebook"
             />
             <div className="createPostProfileLeft">
               <span className="createPostUsername">
@@ -68,7 +69,7 @@ export default function CreatePost() {
         </div>
         <div className="createPostOptionsCont">
           <div className="createPostOption">
-            <marquee>Add to your post</marquee>
+            <p>Add to your post</p>
             <div className="createPostOptionIcons">
               <span className="circleCont">
                 <PermMediaIcon
@@ -123,7 +124,7 @@ export default function CreatePost() {
         </div>
         <hr className="createPostHr" />
         <div className="centerContainer">
-          <img height="250" src='assets/illustration-of-laptop-facebook-ads-free-vector.jpg' />
+          <img height="250" src='assets/illustration-of-laptop-facebook-ads-free-vector.jpg' alt="facebook"/>
         </div>
         <div className="createAdsCenter">
           <h2 style={{ color: "#ccc" }}>Duc, want us to show you ads that are more relevant by using your activity from ad partners?</h2>
@@ -132,19 +133,19 @@ export default function CreatePost() {
         <hr className="createPostHr" />
         <div className="createAdsCenter">
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y-/r/FBUakLpIX3k.png" width="18"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y-/r/FBUakLpIX3k.png" width="18" alt="facebook"></img>
             <span className="adsElementText">You can change this setting at any time in Ad preferences. </span>
           </div>
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/NACdj8k5Tjo.png" width="18"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/NACdj8k5Tjo.png" width="18" alt="facebook"></img>
             <span className="adsElementText">We always use strict security standarts to keep your information safe</span>
           </div>
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/6Td6OTxqdrn.png" width="18"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/6Td6OTxqdrn.png" width="18" alt="facebook"></img>
             <span className="adsElementText">This setting also applies to ads on other apps and websites that use our <span className="linkText">advertising service</span></span>
           </div>
           <div className="adsElement">
-            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/WXPUqPJ7zyc.png" width="18"></img>
+            <img class="x1b0d499" height="18" src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/WXPUqPJ7zyc.png" width="18" alt="facebook"></img>
             <span className="adsElementText">We also use <span className="linkText">other information</span> from ad partners, which isn't controlled by this setting</span>
           </div>
           <div>

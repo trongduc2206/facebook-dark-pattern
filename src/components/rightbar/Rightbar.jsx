@@ -11,7 +11,7 @@ function Rightbar() {
         <div className="birthdayContainer">
           <img src="./assets/gift.png" alt="" className="birthdayImage" />
           <span className="birthdayText">
-            <blink>Gopal Patel</blink> and <b>other friends</b> have a birthday today.
+            <b>Gopal Patel</b> and <b>other friends</b> have a birthday today.
           </span>
         </div>
         <div style={{marginTop: '10px', padding: "10px", borderRadius: "8px", backgroundColor: "#f0f0f0", color: "#f0f0f0" }} className="ads">
