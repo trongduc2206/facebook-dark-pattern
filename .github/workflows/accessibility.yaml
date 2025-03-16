@@ -44,7 +44,7 @@ jobs:
         uses: trongduc2206/accessibility-hub-runner@91d23232898b98ad478ff988bb5a9f882f983ae8
         with:
           url: 'http://localhost:8080'
-          service_id: 'test_svc'
+          service_id: 'testservice65430'
 
       - name: Stop Local Server
         run: pkill http-server || true
