@@ -23,28 +23,11 @@ jobs:
         run: |
           http-server ./build -p 8080 &  
           sleep 5
-      # - name: Install AXE CLI
-      #   run: npm install @axe-core/cli -g
-
-      # - name: Install Chrome driver
-      #   run: npx browser-driver-manager install chrome
-
-      # - name: Fetch Rule IDs from Public API
-      #   run: |
-      #     RULE_IDS=$(curl -s "https://accessibility-hub-be.onrender.com/rules/test_svc")
-      #     echo $RULE_IDS
-      #     echo "RULE_IDS=$RULE_IDS" >> $GITHUB_ENV
-
-      # - name: Evaluate accessibility
-      #   run: axe http://localhost:8080 --chrome-options="no-sandbox,incognito" --rules "$RULE_IDS" --exit
-
       - name: Evaluate accessibility
-        # uses: trongduc2206/accessibility-hub-runner@29fa565e6aa37475be2fc4a2a2fb3e160a4ea397
-        # uses: trongduc2206/accessibility-hub-runner@600838b8965bd67ecbf3fea0a6d48e33bc34332a
-        uses: trongduc2206/accessibility-hub-runner@91d23232898b98ad478ff988bb5a9f882f983ae8
+        # uses: trongduc2206/accessibility-hub-runner@91d23232898b98ad478ff988bb5a9f882f983ae8
+        uses: trongduc2206/accessibility-hub-runner@622980486761c392e73b596b9357bb1655ce8e91
         with:
           url: 'http://localhost:8080'
           service_id: 'testservice14582'
-
       - name: Stop Local Server
         run: pkill http-server || true
